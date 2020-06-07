@@ -23,6 +23,7 @@ Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-ragtag'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'godlygeek/tabular'
+Plug 'morhetz/gruvbox'
 
 Plug 'elixir-editors/vim-elixir'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
@@ -39,8 +40,10 @@ set laststatus=2
 set wildmenu
 
 " Color scheme
-colorscheme codedark
-let g:airline_theme = 'codedark'
+"colorscheme codedark
+"let g:airline_theme = 'codedark'
+colorscheme gruvbox
+let g:airline_theme = 'gruvbox'
 
 map <C-n> :NERDTreeToggle<CR>
 
