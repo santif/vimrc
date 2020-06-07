@@ -40,10 +40,10 @@ set laststatus=2
 set wildmenu
 
 " Color scheme
-"colorscheme codedark
-"let g:airline_theme = 'codedark'
-colorscheme gruvbox
-let g:airline_theme = 'gruvbox'
+colorscheme codedark
+let g:airline_theme = 'codedark'
+"colorscheme gruvbox
+"let g:airline_theme = 'gruvbox'
 
 map <C-n> :NERDTreeToggle<CR>
 
